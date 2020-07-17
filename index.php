@@ -20,4 +20,10 @@
         return $a / $b;
     }
 
+    function potencia($a, $b)
+    {   
+        $res = 1
+        for($i = 1; $i <= $b; $i++)
+            $res = $res * $a;
+    }
 ?>
